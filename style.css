@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+    font-family: Sans-Serif;
+}
+
+.header {
+    background-color: #0A1525;
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+}
+
+.logo-dimension {
+    height: 50px;
+    margin: 10px;
+}
+
+.img-heading-alignment {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    color: #FFFFFF;
+    margin: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.nav-sideitems {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    font-weight: bold;
+}
+
+.banner-section {
+    background-image: url('https://img.b2bpic.net/premium-photo/cropped-hand-man-using-mobile-phone_1048944-307909.jpg');
+    margin-top: -1px;
+    background-size: cover;
+}
+
+.content-section {
+    color: #FFFFFF;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.custom-button {
+    background-color: #6C63FF;
+    border-width: 0px;
+    color: #FFFFFF;
+    height: 35px;
+    border-radius: 7px;
+}
+
+.card-container {
+    height: 400px;
+    width: 400px;
+    margin-left: 70px;
+}
+
+.card-img {
+    height: 250px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.card-container-alignment {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-alignment {
+    text-align: center;
+}
+
+.contactUS-section {
+    background-color: #dfe3eb;
+    margin-top: 40px;
+}
+
+.depo {
+    padding-top: 30px;
+}
+
+.labeling {
+    font-weight: bold;
+    margin: 5px;
+    padding-left: 5px;
+}
+
+.labeling::after {
+    content: " *";
+    color: red;
+}
+
+.label-alignment {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-text {
+    width: 85vw;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 5px;
+    border-color: #dfe3eb;
+}
+
+#text-area-com {
+    margin-left: 10px;
+    width: 87vw;
+}
+
+.custom-button2 {
+    background-color: #6C63FF;
+    border-width: 0px;
+    color: #FFFFFF;
+    height: 35px;
+    border-radius: 7px;
+    width: 88vw;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #0A1525;
+    color: #FFFFFF;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.persona-icon {
+    font-size: 27px;
+    margin: 2px;
+}
+
+.ul-items {
+    list-style-type: none;
+}
+
+.emphazise-li {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sm-alignment {
+    display: flex;
+    flex-direction: row;
+}
+
+.md-alignment-footer {
+    display: flex;
+}
+
+.bars-icon {
+    margin-left: auto;
+}
+
+.persona-icon2 {
+    font-size: 25px;
+    margin: 20px;
+    color: white;
+}
+
+@media (min-width:768px) {
+    .banner-section {
+        height: 100vh;
+    }
+
+    .content-section {
+        padding-top: 360px;
+        padding-bottom: 200px;
+        margin-left: 100px;
+    }
+
+    .card-container-alignment {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card-img {
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+    }
+
+    .card-container {
+        margin-left: 30px;
+    }
+
+    .md-alignment {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #namtext {
+        width: 41vw;
+    }
+
+    .bars-icon {
+        display: none;
+    }
+}
+
+@media (max-width:765px) {
+    .nav-sideitems {
+        display: none;
+    }
+}
